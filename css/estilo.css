@@ -1,0 +1,139 @@
+
+@-webkit-keyframes animacao-caixa {
+	from { /*Estado Inicial*/
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {/*Estado Final*/
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+@-moz-keyframes animacao-caixa {
+	from { /*Estado Inicial*/
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {/*Estado Final*/
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+@-o-keyframes animacao-caixa {
+	from { /*Estado Inicial*/
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {/*Estado Final*/
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+@keyframes animacao-caixa {
+	from { /*Estado Inicial*/
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {/*Estado Final*/
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	/*animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;*/
+
+	-webkit-animation: animacao-caixa 5s 3s 2 alternate;
+	-o-animation: animacao-caixa 5s 3s 2 alternate;
+	-moz-animation: animacao-caixa 5s 3s 2 alternate;
+	animation: animacao-caixa 5s 3s 2 alternate;
+}
+
+
+/*
+#caixa {
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background-color: #009670;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+#caixa h1 {
+	color: white;
+	/*text-shadow: 2px 2px red;*
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+/*#caixa {
+	width: 300px;
+	height: 300px;
+	/*background: url("../imagens/camera.png");
+	/*background: linear-gradient(90deg, red, green);
+	background: radial-gradient(red, green, yellow);
+
+}
+
+#caixa h1 {
+	/*background: rgba(255, 255, 255,0.5);*
+}
+
+
+
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background-color: #b9c941;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*-webkit-border-radius: 10px 50px 80px 100px;
+	-moz-border-radius: 10px 50px 80px 100px;
+	border-radius: 10px 50px 80px 100px;
+	margin: 10px;
+}
+
+#caixa2 {
+	width: 400px;
+	height: 300px;
+	background-color: #b9c941;
+	
+	/*-webkit-border-radius: 10px 50px 80px 100px;
+	-moz-border-radius: 10px 50px 80px 100px;
+	border-radius: 10px 50px 80px 100px;
+	margin: 10px;/
+}
+
+.arredondamento {
+	/*border-radius: 10px 50px 80px 100px;
+}*/
